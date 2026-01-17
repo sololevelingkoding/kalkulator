@@ -1,16 +1,35 @@
-# kalkulator_siplah_user_fix
+# 📊 SIPLAH Calculator
 
-A new Flutter project.
+**SIPLAH Calculator** is a **Flutter Web–based application** designed to help users quickly and easily calculate **estimated product prices for the SIPLAH system** directly from a web browser.
 
-## Getting Started
+This application is suitable for:
 
-This project is a starting point for a Flutter application.
+- Schools
+- SIPLAH operators
+- Teachers and school administrators
+- General users
 
-A few resources to get you started if this is your first Flutter project:
+🌐 **Live Demo:**  
+https://sololevelingkoding.github.io/kalkulator/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- ✅ Simple price input
+- ✅ Automatic calculation
+- ✅ Clean and responsive UI
+- ✅ Works on mobile and desktop
+- ✅ No login required
+- ✅ Runs entirely in the browser
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter Web**
+- **Dart**
+- **HTML5**
+- **GitHub Pages** (Hosting)
+
+---
