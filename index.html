@@ -31,10 +31,46 @@
 
         <title>Kalkulator</title>
         <link rel="manifest" href="manifest.json" />
-        <script src="sw.js"></script>
     </head>
     <body>
-        <script src="sw.js"></script>
+        <!-- Flutter app -->
         <script src="flutter_bootstrap.js" async></script>
+
+        <!-- Adsterra Responsive Banner (BOTTOM) -->
+        <div
+            id="adsterra-container"
+            style="
+                width: 100%;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                z-index: 9999;
+                background: #fff;
+            "
+        ></div>
+
+        <script>
+            function loadAdsterra() {
+                var isMobile = window.innerWidth <= 768;
+
+                window.atOptions = {
+                    key: '98383ac3751d1c00949045998767095b',
+                    format: 'iframe',
+                    height: isMobile ? 50 : 90,
+                    width: isMobile ? 320 : 728,
+                    params: {},
+                };
+
+                var s = document.createElement('script');
+                s.src =
+                    'https://www.highperformanceformat.com/98383ac3751d1c00949045998767095b/invoke.js';
+                document.getElementById('adsterra-container').appendChild(s);
+            }
+
+            window.addEventListener('load', function () {
+                setTimeout(loadAdsterra, 1000);
+            });
+        </script>
     </body>
 </html>
